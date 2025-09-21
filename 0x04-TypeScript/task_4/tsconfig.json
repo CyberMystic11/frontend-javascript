@@ -2,14 +2,13 @@
   "compilerOptions": {
     "target": "es5",
     "module": "amd",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
     "outFile": "./dist/subjects/bundle.js",
-    "rootDir": "./js",
-    "lib": ["es6", "dom"]
+    "strict": true
   },
-  "include": ["js/subjects/index.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "js/subjects/Teacher.ts",
+    "js/subjects/Subject.ts",
+    "js/subjects/Cpp.ts",
+    "js/main.ts"
+  ]
 }
