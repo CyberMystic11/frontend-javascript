@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outFile": "./dist/subjects/bundle.js",
+    "rootDir": "./js",
+    "lib": ["es6", "dom"]
+  },
+  "include": ["js/subjects/index.ts"],
+  "exclude": ["node_modules"]
+}
